@@ -52,7 +52,8 @@ func New(config *pomodoro.IntervalConfig) (*App, error) {
 		return nil, err
 	}
 
-	controller, err := termdash.NewController(term, c, termdash.KeyboardSubscriber(quitter))
+	controller, err := termdash.NewController(term, c,
+		termdash.KeyboardSubscriber(quitter))
 	if err != nil {
 		return nil, err
 	}
@@ -80,7 +81,7 @@ func (a *App) resize() error {
 }
 
 func (a *App) Run() error {
-	defer a.term.Clear()
+	defer a.term.Close()
 	defer a.controller.Close()
 
 	ticker := time.NewTicker(2 * time.Second)
