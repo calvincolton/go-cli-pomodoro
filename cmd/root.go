@@ -84,6 +84,7 @@ func init() {
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "",
 		"config file (default is $HOME/.pomodoro.yaml)")
 
+	rootCmd.Flags().StringP("db", "d", "pomodoro.db", "Database file")
 	rootCmd.Flags().DurationP("pomodoro", "p", 25*time.Minute,
 		"Pomodoro duration")
 	rootCmd.Flags().DurationP("short", "s", 5*time.Minute,
@@ -91,6 +92,7 @@ func init() {
 	rootCmd.Flags().DurationP("long", "l", 15*time.Minute,
 		"Long break duration")
 
+	viper.BindPFlag("db", rootCmd.Flags().Lookup("db"))
 	viper.BindPFlag("pomodoro", rootCmd.Flags().Lookup("pomodoro"))
 	viper.BindPFlag("short", rootCmd.Flags().Lookup("short"))
 	viper.BindPFlag("long", rootCmd.Flags().Lookup("long"))
