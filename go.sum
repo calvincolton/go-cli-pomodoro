@@ -25,6 +25,8 @@ github.com/bgentry/speakeasy v0.1.0/go.mod h1:+zsyZBPWlz7T6j88CTgSN5bM796AkVf0kB
 github.com/bketelsen/crypt v0.0.3-0.20200106085610-5cbc8cc4026c/go.mod h1:MKsuJmJgSg28kpZDP6UIiPt0e0Oz0kqKNGyRaWEPv84=
 github.com/calvincolton/go-cli-notify v0.0.0-20240102223712-f6513817c0cb h1:Z0E1bGSQNbSfA056jy16xPnfimv9MtNcLS5sIdkyTZI=
 github.com/calvincolton/go-cli-notify v0.0.0-20240102223712-f6513817c0cb/go.mod h1:dKF8p6AnbQ+aGh5GYVISyj/s0gbe7LP8052SFj4qRr8=
+github.com/calvincolton/go-cli-notify v0.0.0-20240103005537-41511328a0c0 h1:LylYgXrHjwd4CTQ28mQNek1qVIw8iQZv0ExfpuRClzY=
+github.com/calvincolton/go-cli-notify v0.0.0-20240103005537-41511328a0c0/go.mod h1:dKF8p6AnbQ+aGh5GYVISyj/s0gbe7LP8052SFj4qRr8=
 github.com/cespare/xxhash v1.1.0/go.mod h1:XrSqR1VqqWfGrhpAt58auRo0WTKS1nRRg3ghfAqPWnc=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/coreos/bbolt v1.3.2/go.mod h1:iRUV2dpdMOn7Bo10OQBFzIJO9kkE559Wcmn+qkEiiKk=

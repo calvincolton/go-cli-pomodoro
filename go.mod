@@ -5,7 +5,7 @@ go 1.21.4
 require github.com/mum4k/termdash v0.13.0
 
 require (
-	github.com/calvincolton/go-cli-notify v0.0.0-20240102223712-f6513817c0cb // indirect
+	github.com/calvincolton/go-cli-notify v0.0.0-20240103005537-41511328a0c0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gdamore/encoding v1.0.0 // indirect
 	github.com/gdamore/tcell/v2 v2.0.0 // indirect
